@@ -15,23 +15,23 @@
             <td><label for="Sobrenome">Sobrenome</label></td>
         </tr>
         <tr>
-            <td><input type="text" id="Nome" name="Nome" placeholder="Nome"></td>
-            <td><input type="text" name="Sobrenome" id="Sobrenome" placeholder="Sobrenome"></td>
+            <td><input type="text" id="Nome" name="Nome" placeholder="Nome" required="True"></td>
+            <td><input type="text" name="Sobrenome" id="Sobrenome" placeholder="Sobrenome" required="True"></td>
         </tr>
             <tr>
             <td><label for="email">Email</label></td>
             <td><label for="data de nascimento">Data de Nascimento</label></td>
         </tr>
             <tr>
-            <td><input type="email" name="email" id="email" placeholder="Email"></td>
-            <td><input type="date" name="dataNasc" id="dataNasc">    
+            <td><input type="email" name="email" id="email" placeholder="Email" required="True"></td>
+            <td><input type="date" name="dataNasc" id="dataNasc" required="True">   
         </tr>
         <tr>
             <td><label for="endereço">Endereço</label></td>
             <td><label for="estado">Estado</label></td>
         </tr>
         <tr>
-            <td><input type="endereço" name="endereço" id="endereço" placeholder="Endereço"></td>
+            <td><input type="endereço" name="endereço" id="endereço" placeholder="Endereço" required="True"></td>
             <td><select name="estado" id="estado">
                 <option value="">Selecione</option>
                 <option value="AC">Acre</option>
@@ -69,18 +69,18 @@
             <td><label for="cep">CEP</label></td>
         </tr>
         <tr>
-            <td><input type="cidade" name="cidade" id="cidade"></td>
-            <td><input type= "number" name="cep" id="cep" placeholder="CEP" max lenght="8"></td>
+            <td><input type="cidade" name="cidade" id="cidade"required="True"></td>
+            <td><input type= "number" name="cep" id="cep" placeholder="CEP" max lenght="8"required="True"></td>
         </tr>
         <tr>
             <td><label for="descrição">Descrição</label></td>
             <td><label for="Profissão">Profissão</label></td>
         </tr>
         <tr>
-            <td><textarea name="descrição" id="descrição" cols="20" rows="10"></textarea></td>
-            <td><input type="text" name="profissão" id="profissão" placeholder="Profissão"></td>
+            <td><textarea name="descrição" id="descrição" cols="20" rows="10"></textarea required="True"></td>
+            <td><input type="text" name="profissão" id="profissão" placeholder="Profissão" required="True"></td>
         </tr>
-            <td><input type="submit" name="submit" id="submit"></td>
+            <td><input type="submit" name="submit" id="submit" required="True"></td>
     </table>
 </form>
 </body>
